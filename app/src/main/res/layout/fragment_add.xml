@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.AddPlaceFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Név"/>
+
+            <EditText
+                android:id="@+id/PlaceNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dip"
+                android:text="Irányítószám"/>
+
+            <EditText
+                android:id="@+id/PlaceZipEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dip"
+                android:text="Város"/>
+
+            <EditText
+                android:id="@+id/PlaceCityEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dip"
+                android:text="Utca"/>
+
+            <EditText
+                android:id="@+id/PlaceStreetEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dip"
+                android:text="Házszám"/>
+
+            <EditText
+                android:id="@+id/HouseNumberNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dip"
+                android:text="Telefonszám"/>
+
+            <EditText
+                android:id="@+id/PhoneNumberNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dip"
+                android:text="Email"/>
+
+            <EditText
+                android:id="@+id/EmailEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dip"
+                android:text="Web"/>
+
+            <EditText
+                android:id="@+id/WebEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dip"
+                android:text="Kategória"/>
+
+            <Spinner
+                android:id="@+id/PlaceCategorySpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:id="@+id/PlaceAuthentication"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elfogadom a szabályzatot, a hely hiteles"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/okButton"
+                android:text="Létrehoz"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

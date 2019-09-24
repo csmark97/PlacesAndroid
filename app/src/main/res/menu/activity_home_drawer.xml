@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all"
+            android:icon="@drawable/ic_menu_all"
+            android:title="Összes hely" />
+        <item
+            android:id="@+id/nav_add"
+            android:icon="@drawable/ic_menu_add"
+            android:title="Új hely létrehozás" />
+        <item
+            android:id="@+id/nav_myplaces"
+            android:icon="@drawable/ic_menu_places"
+            android:title="Saját helyeim" />
+    </group>
+
+    <item android:title="Beállítások">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Profil beállítások" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_logout"
+                android:title="Kijelentkezés" />
+
+        </menu>
+    </item>
+
+</menu>
